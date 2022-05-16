@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timing | Deceptive by Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../deps/css/modnorm.min.css">
+    <link rel="stylesheet" href="../deps/css/style.css">
+  </head>
+  <body>
+    <main>
+      <nav class="topnav">
+        <a href="../index.html" class="brand">
+          <svg width="27" height="27" xmlns="http://www.w3.org/2000/svg" class="logo">
+            <g id="metis" fill="currentColor" fill-rule="evenodd"><path d="M18.161 19.05a3.328 3.328 0 0 1 3.414-.188 4.112 4.112 0 0 0 1.841.625 3.312 3.312 0 0 0 3.592-2.997 2.651 2.651 0 0 0-2.294-2.862 2.127 2.127 0 0 1 1.817 2.3c-.133 1.465-1.423 2.476-2.892 2.413-.795-.035-1.387-.454-1.475-.5a3.329 3.329 0 0 1-1.55-2.94c.048-.247.084-.495.106-.744a3.327 3.327 0 0 1 2.292-2.594 4.123 4.123 0 0 0 1.744-.86 3.309 3.309 0 0 0 .42-4.66 2.65 2.65 0 0 0-3.645-.401c.9-.678 2.18-.533 2.91.342.943 1.13.746 2.756-.338 3.75-.586.538-1.3.661-1.397.69a3.328 3.328 0 0 1-3.285-1.105 7.084 7.084 0 0 0-.41-.529 3.326 3.326 0 0 1-.161-3.372 4.12 4.12 0 0 0 .625-1.841 3.308 3.308 0 0 0-2.997-3.592 2.65 2.65 0 0 0-2.863 2.293 2.127 2.127 0 0 1 2.3-1.816c1.465.132 2.477 1.422 2.413 2.892-.034.794-.453 1.387-.5 1.475a3.326 3.326 0 0 1-3.036 1.545 7.18 7.18 0 0 0-.611-.082l.008-.014a3.328 3.328 0 0 1-2.61-2.294 4.129 4.129 0 0 0-.86-1.744 3.308 3.308 0 0 0-4.66-.42 2.65 2.65 0 0 0-.402 3.645c-.676-.901-.533-2.181.343-2.911 1.129-.943 2.756-.745 3.75.339.538.586.661 1.3.69 1.396A3.327 3.327 0 0 1 9.328 7.58l.01.006a7.251 7.251 0 0 0-.432.33L8.9 7.902a3.328 3.328 0 0 1-3.468.223A4.118 4.118 0 0 0 3.592 7.5 3.308 3.308 0 0 0 0 10.497a2.65 2.65 0 0 0 2.293 2.862 2.126 2.126 0 0 1-1.816-2.3c.132-1.465 1.422-2.476 2.892-2.412.794.034 1.387.453 1.475.499a3.327 3.327 0 0 1 1.542 3.083 7.165 7.165 0 0 0-.074.552l-.011-.006a3.329 3.329 0 0 1-2.295 2.61 4.123 4.123 0 0 0-1.744.86 3.308 3.308 0 0 0-.42 4.66 2.65 2.65 0 0 0 3.645.402 2.127 2.127 0 0 1-2.91-.343c-.943-1.13-.746-2.756.338-3.75.586-.539 1.3-.661 1.396-.69a3.327 3.327 0 0 1 3.174.98c.133.2.276.394.429.582l-.025.006a3.328 3.328 0 0 1 .224 3.469 4.118 4.118 0 0 0-.625 1.841 3.308 3.308 0 0 0 2.997 3.592 2.65 2.65 0 0 0 2.862-2.294 2.127 2.127 0 0 1-2.3 1.816c-1.464-.132-2.476-1.422-2.413-2.891.034-.795.454-1.387.5-1.476a3.328 3.328 0 0 1 2.989-1.547c.237.046.475.08.713.103a3.328 3.328 0 0 1 2.565 2.285 4.13 4.13 0 0 0 .86 1.744 3.309 3.309 0 0 0 4.66.42 2.65 2.65 0 0 0 .402-3.645c.677.9.533 2.18-.343 2.911-1.129.942-2.756.745-3.75-.339-.538-.586-.66-1.3-.69-1.397a3.328 3.328 0 0 1 .924-3.121 7.29 7.29 0 0 0 .697-.513z" fill-rule="nonzero"/>
+        		<path class="eye" d="M12.92 12a1.487 1.487 0 0 0-.207.762c0 .797.617 1.443 1.378 1.443.76 0 1.378-.646 1.378-1.443 0-.21-.043-.408-.119-.587 1.213.287 1.65.858 1.65 1.372C17 14.27 16.16 15 13.461 15 10.763 15 10 14.28 10 13.547c0-.68.68-1.442 2.92-1.547z" fill="#FFF"/>
+            </g>
+      		</svg>
+          <span href="index.html" class="site-title">Deceptive <em>by</em> Design</span>
+        </a>
+        <div class="top-links">
+          <a href="meta.html">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline>
+            </svg>
+          </a>
+          <a target="_blank" href="https://github.com/ericyork/dbd">
+            <svg class="icon" id="github" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+          </a>
+          <a target="_blank" href="https://twitter.com/hashtag/darkpatterns">
+            <svg class ="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+          </a>
+        </div>
+      </nav>
+      <article>
+        <header>
+          <section class="blockhead">
+            <h1>Meta Info</h1>
+            <h2 class="subtitle">Webtext Specs etc.</h2>
+            <hr />
+          </section>
+        </header>
+        <section>
+          <h2 style="opacity: .5">Needs Updating when Build Finalized</h2>
+          <h3>Specifications</h3>
+          <p>The goal was to build a lightweight site that delivered a consistent experience across devices. Considering longform prose would be the primary content type, effective typography was a must, along with contextual navigation to help readers traverse lengthy columns. Additionally, there would be for visual examples, and I wanted to build in modest experience enhancements using browser-native animation tools.</p>
+          <p>Accordingly, the site was prototyped in the Sketch app and hand-coded in HTML5 and CSS3 (using flex and grid for brevity and clarity) with responsive breakpoints set via @media and animations handled via @keyframes. Some JS was used for the main menu toggle and the top-of-page button.</p>
+          <p>Eventually, jQuery was implemented for smooth scrolling and modal gallery effects (which were eventually removed), and to better suport older browsers, which is actually needed less and less as time goes on. Were I starting this project today, I&#8217;d definitely eschew jQuery.</p>
+          <p>Images (except photos) and icons were hand-drawn and inlined as .svg for superior performance and to leverage CSS animation. Many images where avoided altogether by using HTML entities such as ⇧ and ☰.</p>
+          <p>This project was developed in a highly iterative fashion, going back and forth from manuscript to prototype as the ideas developed. This messy process was entirely necessary because there was no way to know what it should look like until it was written, but at the same time, to know how to write it, I needed to know how it would eventually look.</p>
+          <p>The practical result of this is that it took a long, time time. The original scaffolds of the site date back several years, and it originally looked very different than it does now. I originally wanted to use git to keep track of every version of the site, but over time as I moved and renamed code repositories, some things eventually got lost.</p>
+          <p>All the commits to this project can be viewed on the Github repo page.</p>
+          <h3>Typography</h3>
+          <p>The type is set in a combination of Gentium Book Basic at 400 and 700 weights, for body text and body headings, and Work Sans, at 400 and 900 weights, for navigation text and page titles. The body font size scales by screen size, but on desktop widths it&#8217;s 24px tall with a line-height of 1.4 (so about 34px total), and paragraphs have a bottom margin of about 29px.</p>
+          <p>A variety of techniques were eventually included to help break up the lengthy text columns into more managable chunks. The manuscript originally included inter-page navigation (back and next Links on each page), as well as in-page navigation (to various sections and back to the top). I also used section headings and drop caps, and experimented with interstitial characters (but eventially removed them as they created needless visual clutter).</p>
+          <p>The body text has a color code of #D1D1D1 and the background, at its lightest point, has a value of #25274D which yields a contrast ratio of 12.07, which surpasses WCAG AAA compliance at the smallest sizes. Page headings and body subheadings also pass AAA compliance (4.63 and 5.09, respectively). It would have been easy enough to bump up the contrast significantly, but I was aiming for accessible colors and a muted visual tone. Many thanks to the reviewers who prevented too muted a tone :)</p>
+          <h3>Other Technologies</h3>
+          <p>A variety of technologies were used in the creation of this project, and I&#8217;ve breifly touched on the major ones below.</p>
+          <h4>Twitter Embeds</h4>
+          <p>The decision to embed individual tweets was a tradeoff that came with significant costs, and which I still regret at times. I found myself wondering whether I should take them out up until the end of the project. Below are the primary issues:</p>
+          <p>Twitter Tracking: Embeded tweets contain tracking scripts that send data to Twitter, and as a result, they are subject to content blocking on devices. In other words, some user&#8217;s will block the tweets from rendering by default. For this reason, I disabled Twitter&#8217;s tracking on all pages, which should resolve the issue. However, if you can&#8217;t view the embedded tweets, check your browser&#8217;s or adblocker&#8217;s security settings.</p>
+          <p>Custom Styles: By detault, tweet styles are quite limited and because of how they are implemented in browsers, a lot of the CSS can&#8217;t be touched in the stylesheet and needs to accessed by javascript factory functions. I implimented the dark theme and restricted some sizing properties, but mostly left the tweets with their default styling because rewriting them all would require additional javascript on every page.</p>
+          <p>Benefits: The embedded tweets did probably save some time. Maybe. Rather than having to manually type in all the data, I could simply generate embed code and, with some optimizations, paste it in. I did spend a lot of time trying to style them, disable ad tracking, embed them properly, and so on, so I&#8217;m not really sure how much time it actually saved.
+          Tech Stack</p>
+          <p>Other than the use of jQuery for the nav menu and the modals, all the code was written by hand without any code generators or CSS frameworks. I do apply the mini-resent.css and the normalize.css stylesheets, both distributed under an MIT license, as a foundation for my code, but these merely reset and normalize regular values, respectively. All the design and layout elements are my own.</p>
+          <p>I used the Sketch app for prototyping and for authoring the scaled vector (.svg) images used in animations and as design elements.</p>
+          <p>I used the Atom text editor both for coding and for authoring the manuscript, although some manuscript authoring was eventually comleted using Mac&#8217;s Pages app and Miscrosoft Word.</p>
+          <p>I used github and the github client to stage and commit all coding changes. Sometimes I used the github desktop client, but more often, I just used the command line. Sometimes I made notes in markdown, which converts easily to HTML, but mostly I made them in .txt files and converted them to HTML by hand.</p>
+          <h3>Icons and Graphics</h3>
+          <p>Many hand-drawn images that appear here were based on open-source line drawings posted to the Noun Project, a wonderful resource. Typically, I&#8217;d find a few examples of what I wanted and then create my own graphics from those, but sometimes I incorporated elements of the original artwork and I&#8217;ve credited those below.</p>
+          <p>Other, more involved graphics such as those which appear were adapted from among the many examples presented in Arnheim&#8217;s text. These images were entire recreated using .svg and Adobe Illustrator&#8217;s iPad app, along with the Apple Pencil.</p>
+          <p>All .svgs were edited in both Sketch and Atom. Some are referenced in the file, but most are inlined directly into the html for superior performance and utility.
+          Credits</p>
+          <p>The following artists from the Noun Project authored images that inspired either directly or indirectly the work I adapted from them. While each of the icons I drew is my own, it owes a debt to these artists, so I&#8217;m acknowledging this here.</p>
+          <p>“Octopus” by Yuliya Po. The icon for the site uses Po&#8217;s outer shape. The eye inside, as well as other aspects of implimentation, are my own.</p>
+          <p>“Bubbles” by Alex Vaughn. Vaughn&#8217;s bubble collection served as a template for my own bubble drawings.</p>
+          <p>“Angler Fish” by Chanutis Industries served as inspiration for my own angler fish, at the far bottom right of many pages, although I embelleshed it so significantly it&#8217;s perhaps no longer recognizable.</p>
+          <p>Other assorted fish and drawings are my own.</p>
+          <h3>CSS Reset</h3>
+          <pre><code>v1.1.0 | https://github.com/sindresorhus/modern-normalize
+          </code></pre>
+        </section>
+        <nav class="arrows">
+          <a class="prev" href="timing.html">
+            <svg class="lg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left-circle"><circle cx="12" cy="12" r="10"></circle><polyline points="12 8 8 12 12 16"></polyline><line x1="16" y1="12" x2="8" y2="12"></line></svg>
+            <span>Back</span>
+          </a>
+          <ul class="pages">
+            <li><a class="page-num" href="../index.html">1</a></li>
+            <li><a class="page-num" href="theory.html">2</a></li>
+            <li><a class="page-num" href="camouflage.html">3</a></li>
+            <li><a class="page-num" href="disguise.html">4</a></li>
+            <li><a class="page-num" href="timing.html">5</a></li>
+            <li><a class="page-num" href="reversal.html"reversal.html>6</a></li>
+            <li><a class="page-num" href="conclusion.html">7</a></li>
+          </ul>
+          <a class="next" href="conclusion.html">
+            <svg class="lg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle"><circle cx="12" cy="12" r="10"></circle><polyline points="12 16 16 12 12 8"></polyline><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+            <span>Next</span>
+          </a>
+        </nav>
+      </article>
+      <nav class="sidenav">
+        <h2>Contents</h2>
+        <section class="nav-section">
+          <h3>Overview</h3>
+          <ul class="collapse">
+            <li><a href="../index.html#intro">Introduction</a></li>
+            <li><a href="../index.html#history">History in Brief</a></li>
+            <li><a href="../index.html#medium">Content and Medium</a></li>
+            <li><a href="../index.html#illustration">An Illustration</a></li>
+            <li><a href="../index.html#rhetops">As RhetOps</a></li>
+          </ul>
+        </section>
+        <section class="nav-section">
+          <h3>Rhetoric</h3>
+          <ul class="collapse">
+            <li><a href="theory.html#visual">Perception</a></li>
+            <li><a href="theory.html#weapons">Weaponization</a></li>
+            <li><a href="theory.html#privacy">Privacy and Profits</a></li>
+            <li><a href="theory.html#rhetoric">Rhetorical Cunning</a></li>
+            <li><a href="theory.html#embody">Embodiment</a></li>
+          </ul>
+        </section>
+        <section class="nav-section">
+          <h3>Camouflage</h3>
+          <ul class="collapse">
+            <li><a href="camouflage.html#top">Misdirecting</a></li>
+            <li><a href="camouflage.html#eg1">Shapeshifting</a></li>
+            <li><a href="camouflage.html#eg2">No Affordance</a></li>
+            <li><a href="camouflage.html#eg3">Low Contrast</a></li>
+            <li><a href="camouflage.html#eg4">Out of Sight</a></li>
+          </ul>
+        </section>
+        <section class="nav-section">
+          <h3>Disguise</h3>
+          <ul class="collapse">
+            <li><a href="disguise.html#top">Disguises</a></li>
+            <li><a href="disguise.html#eg1">Something Else</a></li>
+            <li><a href="disguise.html#eg2">Not Sure?</a></li>
+            <li><a href="disguise.html#eg3">Sneaky Submit</a></li>
+          </ul>
+        </section>
+        <section class="nav-section">
+          <h3>Timing</h3>
+          <ul class="collapse">
+            <li><a href="timing.html#top">Timing</a></li>
+            <li><a href="timing.html#eg1"><em>Kairos</em></a></li>
+            <li><a href="timing.html#eg2">Space</a></li>
+            <li><a href="timing.html#eg3">Changes</a></li>
+          </ul>
+        </section>
+        <section class="nav-section">
+          <h3>Reversal</h3>
+          <ul class="collapse">
+            <li><a href="reversal.html#top">Reversals</a></li>
+            <li><a href="reversal.html#eg1">Extreme Ambuguity</a></li>
+            <li><a href="reversal.html#eg2">Ambiguous Identity</a></li>
+            <li><a href="reversal.html#eg3">No Choice</a></li>
+          </ul>
+        </section>
+        <section class="nav-section">
+          <h3>Conclusion</h3>
+          <ul class="collapse">
+            <li><a href="conclusion.html#understand">Understanding</a></li>
+            <li><a href="conclusion.html#defend">Defense</a></li>
+            <li><a href="conclusion.html#direction">Directions</a></li>
+            <li><a href="conclusion.html#refs">References</a></li>
+          </ul>
+        </section>
+      </nav>
+    </main>
+    <!--
+    loads scripts -->
+    <script src="../deps/js/main.js"></script>
+  </body>
+</html>

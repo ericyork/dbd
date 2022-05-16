@@ -1,0 +1,4 @@
+# excludes system files
+*/.DS_Store
+# excludes binary files
+#bin/
