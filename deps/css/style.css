@@ -89,6 +89,7 @@ b, strong {
 /*-- Page layout --*/
 main {
   display: grid;
+  max-width: 1920px;
   padding: 0 0 var(--pad) 0;
   height: 100vh;
   background: linear-gradient(to bottom, var(--bkgd1), var(--bkgd0));

@@ -52,4 +52,5 @@ window.addEventListener('load', function removeHash () {
 		}
 });
 window.addEventListener('DOMContentLoaded', () => {
+
 });
