@@ -94,7 +94,6 @@ main {
   background: linear-gradient(to bottom, var(--bkgd1), var(--bkgd0));
   grid-template-areas:
       "topnav topnav topnav topnav"
-      "wave wave wave wave"
       "side main main main";
 }
 
@@ -428,17 +427,12 @@ nav.sidenav {
 .pages li a:hover, .pages li a[aria-current="page"] {
   color: var(--acc1);
 }
-/*-- wave animation --*/
-@keyframes dash {
-  from {stroke-dashoffset: 1440px;}
-}
 /*-- Media Queries --*/
 @media screen and (min-width: 768px) {
   :root {--screen: 2vw; --font: 1.8rem; --space: 2rem; --pad: 1rem;}
   main {
     grid-template-areas:
         "topnav topnav topnav topnav"
-        "wave wave wave wave"
         "side main main main";
   }
 }

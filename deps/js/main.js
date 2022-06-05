@@ -41,3 +41,5 @@ window.addEventListener('load', function removeHash () {
 				document.body.scrollLeft = scrollH;
 		}
 });
+window.addEventListener('DOMContentLoaded', () => {
+});
