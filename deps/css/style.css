@@ -427,6 +427,26 @@ nav.sidenav {
 .pages li a:hover, .pages li a[aria-current="page"] {
   color: var(--acc1);
 }
+.bub {
+  position: fixed;
+  top: 100%;
+  left: 96%;
+  opacity: 0;
+  animation: rise 6s ease-in-out;
+}
+@keyframes rise {
+  0% {transform: translateY(10vh);}
+  10% {left: 96%; opacity: 0;}
+  20% {left: 94%;}
+  30% {left: 96%;}
+  40% {left: 94%;}
+  50% {left: 96%; opacity: 1;}
+  60% {left: 94%;}
+  70% {left: 96%;}
+  80% {left: 94%;}
+  90% {left: 96%; opacity: 0;}
+  100% {transform: translateY(-110vh);}
+}
 /*-- Media Queries --*/
 @media screen and (min-width: 768px) {
   :root {--screen: 2vw; --font: 1.8rem; --space: 2rem; --pad: 1rem;}

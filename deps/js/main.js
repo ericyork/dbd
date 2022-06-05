@@ -41,5 +41,13 @@ window.addEventListener('load', function removeHash () {
 				document.body.scrollLeft = scrollH;
 		}
 });
+/**/
 window.addEventListener('DOMContentLoaded', () => {
+	let path = 'deps/svg/bub-m.svg';
+	let kind = 'bub';
+	const parent = document.getElementById('page');
+	const vis = document.createElement('img');
+	vis.src = path;
+	vis.classList.add(kind);
+	parent.appendChild(vis)
 });
