@@ -1,3 +1,13 @@
+function navTog() {
+	const navBut = document.querySelector('.nav-tog');
+	const navToggle = document.querySelector('.sidenav');
+	navToggle.classList.toggle('expand');
+	if (navToggle.classList.contains('expand')) {
+		navBut.innerText = '×';
+	} else {
+		navBut.innerText = '☰';
+	}
+}
 window.addEventListener('DOMContentLoaded', () => {
   /*-- observes for when section with ids scroll into view  --*/
 	const observer = new IntersectionObserver(entries => {

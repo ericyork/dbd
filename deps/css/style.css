@@ -233,7 +233,7 @@ nav.topnav {
   padding-right: var(--screen);
   width: 100%;
   height: 7rem;
-  border-bottom: 1px solid var(--bkgd3);
+  border-bottom: 1px solid var(--txt0);
 }
 a:link.brand {
   display: block;
@@ -294,6 +294,30 @@ nav.sidenav {
   overflow-y: auto;
   padding: 0 0 0 var(--screen);
   position: relative;
+  background-color: transparent;
+}
+.nav-tog {
+  position: absolute;
+  display: inline-block;
+  top: 1.85rem;
+  right: var(--space);
+  font-size: calc(var(--font) * 2.3);
+  color: var(--bkgd3);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: var(--trans);
+}
+.nav-tog:hover {
+  color: var(--bkgd4);
+}
+.xtra-links {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 var(--space);
+  margin-top: var(--space);
+  margin-bottom: calc(var(--space) * -1);
+  transform: scale(.8);
 }
 .sidenav h2 {
   font-size: calc(var(--font) * 1.5);
@@ -428,14 +452,35 @@ nav.sidenav {
   color: var(--acc1);
 }
 /*-- Media Queries --*/
-@media screen and (min-width: 768px) {
-  :root {--screen: 2vw; --font: 1.8rem; --space: 2rem; --pad: 1rem;}
-  main {
-    grid-template-areas:
-        "topnav topnav topnav topnav"
-        "side main main main";
+@media screen and (max-width: 768px) {
+  nav.topnav {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .top-links a:nth-child(1) {display: none;}
+  .top-links a:nth-child(2) {display: none;}
+  .top-links a:nth-child(3) {display: none;}
+  article {
+    margin-left: -2.5rem;
+  }
+  nav.sidenav {
+    position: fixed;
+    background-color: var(--bkgd0);
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    left: -240px;
+    transition: transform .3s ease-in-out;
+  }
+  nav.sidenav.expand {
+    transform: translateX(240px);
   }
 }
+@media screen and (min-width: 768px) {
+  :root {--screen: 2vw; --font: 1.5rem; --space: 1.8rem; --pad: 1rem;}
+  .nav-tog {display: none;}
+  .xtra-links {display: none;}
+}
 @media screen and (min-width: 1280px) {
-  :root {--screen: 3vw; --font: 2rem; --space: 2.8rem;}
+  :root {--screen: 3vw; --font: 1.7rem; --space: 2.6rem;}
 }
