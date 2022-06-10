@@ -453,6 +453,7 @@ nav.sidenav {
 .pages li a:hover, .pages li a[aria-current="page"] {
   color: var(--acc1);
 }
+
 /*-- Media Queries --*/
 @media screen and (max-width: 768px) {
   nav.topnav {
