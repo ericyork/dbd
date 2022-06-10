@@ -485,3 +485,208 @@ nav.sidenav {
 @media screen and (min-width: 1280px) {
   :root {--screen: 3vw; --font: 1.7rem; --space: 2.6rem;}
 }
+/*-- bubble classes --*/
+.bub { /*--start unit --*/
+  position: fixed;
+  top: 100%;
+  left: 96%;
+  opacity: 0;
+  animation: rise 6s ease-in-out;
+}
+@keyframes rise {
+  0% {transform: translateY(10vh);}
+  10% {left: 96%; opacity: 0;}
+  20% {left: 94%;}
+  30% {left: 96%;}
+  40% {left: 94%;}
+  50% {left: 96%; opacity: 1;}
+  60% {left: 94%;}
+  70% {left: 96%;}
+  80% {left: 94%;}
+  90% {left: 96%; opacity: 0;}
+  100% {transform: translateY(-101vh);}
+} /*--end unit --*/
+.bub1 { /*--start unit --*/
+  position: fixed;
+  top: 100%;
+  left: 92%;
+  opacity: 0;
+  animation: rise1 6.4s ease-in-out;
+}
+@keyframes rise1 {
+  0% {transform: translateY(10vh);}
+  10% {left: 94%; opacity: 0;}
+  20% {left: 92%;}
+  30% {left: 94%;}
+  40% {left: 92%;}
+  50% {left: 94%; opacity: 1;}
+  60% {left: 92%;}
+  70% {left: 94%;}
+  80% {left: 92%;}
+  90% {left: 94%; opacity: 0;}
+  100% {transform: translateY(-110vh);}
+} /*--end unit --*/
+.bub2 { /*--start unit --*/
+  position: fixed;
+  top: 100%;
+  left: 91%;
+  opacity: 0;
+  animation: rise2 6.6s ease-in-out;
+}
+@keyframes rise2 {
+  0% {transform: translateY(10vh);}
+  10% {left: 93%; opacity: 0;}
+  20% {left: 91%;}
+  30% {left: 93%;}
+  40% {left: 91%;}
+  50% {left: 93%; opacity: 1;}
+  60% {left: 91%;}
+  70% {left: 93%;}
+  80% {left: 91%;}
+  90% {left: 93%; opacity: 0;}
+  100% {transform: translateY(-105vh);}
+} /*--end unit --*/
+.bub3 { /*--start unit --*/
+  position: fixed;
+  top: 100%;
+  left: 93%;
+  opacity: 0;
+  animation: rise3 7s ease-in-out;
+}
+@keyframes rise3 {
+  0% {transform: translateY(10vh);}
+  10% {left: 95%; opacity: 0;}
+  20% {left: 93%;}
+  30% {left: 95%;}
+  40% {left: 93%;}
+  50% {left: 95%; opacity: 1;}
+  60% {left: 93%;}
+  70% {left: 95%;}
+  80% {left: 93%;}
+  90% {left: 95%; opacity: 0;}
+  100% {transform: translateY(-108vh);}
+} /*--end unit --*/
+.bub4 { /*--start unit --*/
+  position: fixed;
+  top: 100%;
+  left: 97%;
+  opacity: 0;
+  animation: rise4 6.2s ease-in-out;
+}
+@keyframes rise4 {
+  0% {transform: translateY(10vh);}
+  10% {left: 97%; opacity: 0;}
+  20% {left: 93%;}
+  30% {left: 97%;}
+  40% {left: 93%;}
+  50% {left: 97%; opacity: 1;}
+  60% {left: 93%;}
+  70% {left: 97%;}
+  80% {left: 93%;}
+  90% {left: 97%; opacity: 0;}
+  100% {transform: translateY(-112vh);}
+} /*--end unit --*/
+/*---------------------------
+------------------------------
+-----------------------------*/
+/*-- bubble classes --*/
+.bub5 { /*--start unit --*/
+  position: fixed;
+  top: 100%;
+  left: 76%;
+  opacity: 0;
+  animation: rise5 7s ease-in-out;
+}
+@keyframes rise5 {
+  0% {transform: translateY(10vh);}
+  10% {left: 86%; opacity: 0;}
+  20% {left: 84%;}
+  30% {left: 86%;}
+  40% {left: 84%;}
+  50% {left: 86%; opacity: 1;}
+  60% {left: 84%;}
+  70% {left: 86%;}
+  80% {left: 84%;}
+  90% {left: 86%; opacity: 0;}
+  100% {transform: translateY(-125vh);}
+} /*--end unit --*/
+.bub6 { /*--start unit --*/
+  position: fixed;
+  top: 100%;
+  left: 72%;
+  opacity: 0;
+  animation: rise6 7.4s ease-in-out;
+}
+@keyframes rise6 {
+  0% {transform: translateY(10vh);}
+  10% {left: 74%; opacity: 0;}
+  20% {left: 72%;}
+  30% {left: 74%;}
+  40% {left: 72%;}
+  50% {left: 74%; opacity: 1;}
+  60% {left: 72%;}
+  70% {left: 74%;}
+  80% {left: 72%;}
+  90% {left: 74%; opacity: 0;}
+  100% {transform: translateY(-130vh);}
+} /*--end unit --*/
+.bub7 { /*--start unit --*/
+  position: fixed;
+  top: 100%;
+  left: 71%;
+  opacity: 0;
+  animation: rise7 7.6s ease-in-out;
+}
+@keyframes rise7 {
+  0% {transform: translateY(10vh);}
+  10% {left: 73%; opacity: 0;}
+  20% {left: 71%;}
+  30% {left: 73%;}
+  40% {left: 71%;}
+  50% {left: 73%; opacity: 1;}
+  60% {left: 71%;}
+  70% {left: 73%;}
+  80% {left: 71%;}
+  90% {left: 73%; opacity: 0;}
+  100% {transform: translateY(-118vh);}
+} /*--end unit --*/
+.bub8 { /*--start unit --*/
+  position: fixed;
+  top: 100%;
+  left: 73%;
+  opacity: 0;
+  animation: rise8 8s ease-in-out;
+}
+@keyframes rise8 {
+  0% {transform: translateY(10vh);}
+  10% {left: 75%; opacity: 0;}
+  20% {left: 73%;}
+  30% {left: 75%;}
+  40% {left: 73%;}
+  50% {left: 75%; opacity: 1;}
+  60% {left: 73%;}
+  70% {left: 75%;}
+  80% {left: 73%;}
+  90% {left: 75%; opacity: 0;}
+  100% {transform: translateY(-122vh);}
+} /*--end unit --*/
+.bub9 { /*--start unit --*/
+  position: fixed;
+  top: 100%;
+  left: 77%;
+  opacity: 0;
+  animation: rise9 7.2s ease-in-out;
+}
+@keyframes rise9 {
+  0% {transform: translateY(10vh);}
+  10% {left: 77%; opacity: 0;}
+  20% {left: 73%;}
+  30% {left: 77%;}
+  40% {left: 73%;}
+  50% {left: 77%; opacity: 1;}
+  60% {left: 73%;}
+  70% {left: 77%;}
+  80% {left: 73%;}
+  90% {left: 77%; opacity: 0;}
+  100% {transform: translateY(-120vh);}
+} /*--end unit --*/
