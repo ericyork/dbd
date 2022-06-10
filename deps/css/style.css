@@ -29,6 +29,7 @@
 /*--Document Defaults--*/
 html {
   background: var(--bkgd0);
+  background: linear-gradient(to bottom, var(--bkgd1), var(--bkgd0));
   font-size: 62.5%;
   width: 100vw;
   height: 100vh;
