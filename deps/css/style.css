@@ -12,7 +12,7 @@
  --bkgd0:  #111227;
  --bkgd1:  #1b1d42;
  --bkgd2:  #25274D;
- --bkgd3:  #29648A;
+ --bkgd3:  #508DC2;
  --bkgd4:  #2E9CCA;
  --acc1:   #B7D9E7;
  --acc2:   #71BFE0;
@@ -37,7 +37,7 @@ html {
 }
 body {
   color: var(--txt2);
-  font: 300 var(--font)/1 'Overpass', sans-serif;
+  font: 300 var(--font)/1 'Overpass';
   overflow: hidden;
   width: 100vw;
   height: 100vh;
@@ -45,7 +45,7 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
   color: var(--bkgd4);
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Overpass';
   font-weight: 700;
   margin: 0;
   width: 100%;
@@ -288,6 +288,9 @@ a:hover .site-title {
   text-transform: lowercase;
   font-style: italic;
   padding-right: .35rem;
+}
+.top-links a {
+  text-indent: -9999px;
 }
 /*-- Side Nav --*/
 nav.sidenav {
