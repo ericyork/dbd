@@ -12,7 +12,7 @@
  --bkgd0:  #111227;
  --bkgd1:  #1b1d42;
  --bkgd2:  #25274D;
- --bkgd3:  #508DC2;
+ --bkgd3:  #3D719E;
  --bkgd4:  #2E9CCA;
  --acc1:   #B7D9E7;
  --acc2:   #71BFE0;
@@ -58,7 +58,7 @@ h4 {font-size: calc(var(--font) * 1.3);}
 h5 {font-size: calc(var(--font) * 1.15);}
 h6 {font-size: var(--font);}/*--
 --*/
-h1, h2, article h3 {
+h1, h2, article h3, article h4 {
   margin-top: var(--dblspace);
 }
 p {
@@ -155,6 +155,12 @@ article h3 + p::first-letter {
   margin-right: calc(var(--pad) * 0.75);
   line-height: .5;
   font-family: serif;
+}
+article ul {
+  margin-top: -2rem;
+}
+article ul li {
+  line-height: 1.5;
 }
 figure {
   margin: var(--space) calc(var(--pad) * -1) var(--space) calc(var(--pad) * -1);
